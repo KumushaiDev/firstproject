@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    border: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+body {
+    font-family:"Libre+Franklin" , sans-serif;
+}
+/*"Tenor Sans"*/
+
+/*HEADER*/
+#header {
+    padding: 20px 0;
+    margin-top: 30px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav {
+    display: flex;
+    column-gap: 40px;
+}
+.header-nav a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 20px;
+}
+.header h1 {
+    width: 136px;
+    height: 30px;
+    color: #000000;
+}
+
+/*HERO*/
+#hero {
+    padding: 20px 0;
+    margin-top: 59px;
+}
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero-text h2 {
+    color: #999;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.hero-text h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Tenor Sans;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin: 18px 0 27px 0;
+}
+.hero-text p {
+    color: #666;
+    font-size: 16px;
+    font-family: Source Serif Pro;
+    font-weight: 400;
+    line-height: 24px;
+}
+.hero-text h3 {
+    color: #000;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Libre Franklin;
+    text-transform: uppercase;
+    margin-top: 28px;
+}
+
+/*CARD*/
+#card {
+    margin-top: 34px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.blocks {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*gap: 30px;*/
+}
+.block1 h3 {
+    color: #999;
+    font-size: 10px;
+    font-family: Libre Franklin;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.block1 h1 {
+    color: #000;
+    font-size: 20px;
+    font-family: Tenor Sans;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 18px 0 15px 0;
+}
+.block1 h2 {
+    color: #000;
+    font-size: 10px;
+    font-family: Libre Franklin;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.block1 {
+    color: #000;
+    width: 255px;
+    margin: 0 20px 50px 0;
+}
+.block1 img {
+    width: 100%;
+}
+.card button {
+    width: 205px;
+    height: 54px;
+    border: 1px solid #000;
+    background: #FFF;
+    color: #000;
+    font-size: 10px;
+    font-family: Libre Franklin;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.line {
+    background: #000;
+    height: 2px;
+    width: 100%;
+    margin: 50px 0;
+}
+
+/*POST*/
+#post {
+    margin: 60px 0;
+}
+.post-block h4 {
+    color: #999;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.post-block h2 {
+    color: #000;
+    font-size: 19px;
+    font-family: "Tenor Sans";
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.post-block h5 {
+    color: #000;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.post-block {
+    width: 650px;
+    margin-bottom: 40px;
+}
+.post-block img {
+    width: 100%;
+}
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*FOOTER*/
+#footer {
+    padding: 20px 0;
+    background: #000;
+
+}
+.footer {
+    display: flex;
+    color: white;
+    padding: 60px 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.footer-logo h1 {
+    color: #FFFFFF;
+}
+.footer-logo h2 {
+    color: #666;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    text-align: center;
+}
+.line {
+    width: 1200px;
+    height: 1px;
+    background: #4D4D4D;
+}
+.footer-text h3 {
+    color: #666;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.footer-text h4 {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.footer-input input {
+    width: 221px;
+    height: 48px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    outline: none;
+}
+.footer-input button {
+    width: 79px;
+    height: 48px;
+    background: #000;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
